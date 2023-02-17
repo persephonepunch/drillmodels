@@ -109,7 +109,7 @@ async function setupViewer(){
         // FIRST SECTION
 
         tl
-        .to(position, {x: isMobile ? -4.8 : 5.8, y: isMobile ?  2.5 :  -2.26, z: isMobile ? -3.3 :  -3.85,
+        .to(position, {x: isMobile ? -0.8 : 5.8, y: isMobile ?  2.5 :  -2.26, z: isMobile ? -3.3 :  -3.85,
             scrollTrigger: {
                 trigger: ".second",
                 start:"top bottom",
